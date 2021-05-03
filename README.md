@@ -1,10 +1,10 @@
-# <p align="center" > تنصيب سورس ديف بروكس
+# <p align="center" > تنصيب سورس برفان
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > ⤈ ↫ كود التنصيب الاول مع المكاتب ↬ ⤈
-# <p align="center" > `git clone https://github.com/abdailrhman/PaRvoN.git;cd DevProx;chmod +x DevProx.sh;./DevProx.sh install`
+# <p align="center" > `git clone https://github.com/abdailrhman/PaRvoN.git;cd PaRvoN;chmod +x DevProx.sh;./DevProx.sh install`
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > ⤈ ↫ كود التنصيب السريع من دون مكاتب ↬ ⤈
-# <p align="center" > `git clone https://github.com/abdailrhman/PaRvoN.git;cd DevProx;chmod +x DevProx.sh;./DevProx.sh`
+# <p align="center" > `git clone https://github.com/abdailrhman/PaRvoN.git;cd PaRvoN;chmod +x DevProx.sh;./DevProx.sh`
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > قم بنسخ احدى اكواد التنصيب
 # <p align="center" > والصقه في الترمنال واضغط انتر
