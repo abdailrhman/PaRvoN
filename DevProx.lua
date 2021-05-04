@@ -3686,7 +3686,7 @@ Welcome To Source
 
 ⌁︙[Developer](https://t.me/dXXX_X)
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Tws DevProx](https://t.me/RTXR_bot)
+⌁︙[Tws SoPaRvoN](https://t.me/RTXR_bot)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
