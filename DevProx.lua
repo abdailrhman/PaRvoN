@@ -136,14 +136,9 @@ end
 Load_DevProx() 
 print("\27[36m"..[[                                           
 ---------------------------------------------
-|    ____             ____                  |
-|   |  _ \  _____   _|  _ \ _ __ _____  __  |
-|   | | | |/ _ \ \ / / |_) | '__/ _ \ \/ /  |
-|   | |_| |  __/\ V /|  __/| | | (_) >  <   |
-|   |____/ \___| \_/ |_|   |_|  \___/_/\_\  |
 |-------------------------------------------|
-|This Source Was Developed By (ABS) @IQ_ABS.|
-|  This Is The Source Channel @Dev_Prox .   |
+|This Source Was SoPaRvoN By (CAR) @dXXX_X.|
+|  This Is The Source Channel @SoPaRvoN.   |
 |               - DevProx -                 |
 ---------------------------------------------
 ]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m")
@@ -3683,15 +3678,15 @@ end
 if text == "السورس" or text == "سورس" then 
 local text =  [[
 Welcome To Source
-⌁︙DevProx TEAM
+⌁︙PaRvoN TEAM
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ⌁︙[Source Channel](https://t.me/SoPaRvoN)
 
-⌁︙[Exp Source](https://t.me/Exp_Dev)
+⌁︙[Exp Source](https://t.me/So_PaRvoN)
 
-⌁︙[Developer](https://t.me/IQ_ABS)
+⌁︙[Developer](https://t.me/dXXX_X)
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Tws DevProx](https://t.me/IQA_bot)
+⌁︙[Tws DevProx](https://t.me/RTXR_bot)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
@@ -9758,7 +9753,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙لم يتم تعيين قناة الا�
 end end end end
 --     Source SoPaRvoN     --
 if text == 'القناة' or text == 'قناة السورس' or text == 'قناه السورس' or text == 'قنات السورس' then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙Channel ↬ @Dev_Prox', 1, 'html')    
+Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙Channel ↬ @SoPaRvoN', 1, 'html')    
 end 
 --     Source SoPaRvoN     --
 if Sudo(msg) then 
@@ -9889,8 +9884,8 @@ end
 --     Source SoPaRvoN     --
 end 
 ------------------------------------------------
--- This Source Was Developed By (ABS) @IQ_ABS.--
---   This Is The Source Channel @Dev_Prox .   --
---                - DevProx -                 --
+-- This Source Was Developed By (CAR) @dXXX_X.--
+--   This Is The Source Channel @SoPaRvoN .   --
+--                - PaRvoN -                 --
 --        -- https://t.me/SoPaRvoN--         --
 ------------------------------------------------ 
