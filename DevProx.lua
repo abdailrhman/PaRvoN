@@ -147,7 +147,7 @@ DevId = Config.DevId
 SudoIds = {Config.SudoIds,218385683}
 DevProx = Config.DevProx
 TokenBot = Config.TokenBot
-NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بروكس')
+NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بارفان')
 --     Source SoPaRvoN     --
 FilesPrint = "\27[35m".."\nAll Source Files Started ↬ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"..'\27[m'
 FilesNumber = 0
@@ -1000,8 +1000,8 @@ end
 DevAbs:del(DevProx.."Del:Cmd:Group"..msg.chat_id_..":"..msg.sender_user_id_)
 return false
 end
-if text and text:match('^'..(DevAbs:get(DevProx..'Abs:NameBot') or "بروكس")..' ') then
-data.message_.content_.text_ = data.message_.content_.text_:gsub('^'..(DevAbs:get(DevProx..'Abs:NameBot') or "بروكس")..' ','')
+if text and text:match('^'..(DevAbs:get(DevProx..'Abs:NameBot') or "بارفان")..' ') then
+data.message_.content_.text_ = data.message_.content_.text_:gsub('^'..(DevAbs:get(DevProx..'Abs:NameBot') or "بارفان")..' ','')
 end
 if data.message_.content_.text_ then
 local NewCmmd = DevAbs:get(DevProx.."Set:Cmd:Group:New1"..msg.chat_id_..":"..data.message_.content_.text_)
@@ -1262,7 +1262,7 @@ end
 if ChatType == 'pv' then 
 if text == '/start' or text == 'رجوع ،🔙‘' then 
 if SecondSudo(msg) then 
-local Sudo_Welcome = '⌁︙مرحبا عزيزي المطور \n⌁︙انت المطور الاساسي هنا \n⌁︙اليك ازرار سورس ديف بروكس \n⌁︙تستطيع التحكم بكل الاوامر فقط اضغط على الامر الذي تريد تنفيذه'
+local Sudo_Welcome = '⌁︙مرحبا عزيزي المطور \n⌁︙انت المطور الاساسي هنا \n⌁︙اليك ازرار سورس بارفان \n⌁︙تستطيع التحكم بكل الاوامر فقط اضغط على الامر الذي تريد تنفيذه'
 local key = {
 {'وضع اسم البوت','↫ تحديث ⌁','وضع كليشه المطور'},
 {'↫ المطورين ⌁','↫ الاحصائيات ⌁'},
@@ -1290,7 +1290,7 @@ return false
 end end
 if text == '~ تعيين كلايش الاوامر ~' then 
 if SecondSudo(msg) then 
-local Sudo_Welcome = '⌁︙اهلا بك مجددا عزيزي المطور \n⌁︙اليك الازرار الخاصه بتعديل وتغيير كلايش سورس ديف بروكس فقط اضغط على الامر الذي تريد تنفيذه'
+local Sudo_Welcome = '⌁︙اهلا بك مجددا عزيزي المطور \n⌁︙اليك الازرار الخاصه بتعديل وتغيير كلايش سورس بارفان فقط اضغط على الامر الذي تريد تنفيذه'
 local key = {
 {'حذف كليشة الايدي','تعيين كليشة الايدي'},
 {'تعيين امر الاوامر'},
@@ -2620,7 +2620,7 @@ end end
 if SecondSudo(msg) then
 if text == 'جلب نسخه الكروبات' and ChCheck(msg) or text == 'جلب نسخه احتياطيه' and ChCheck(msg) then
 local List = DevAbs:smembers(DevProx..'Abs:Groups') 
-local BotName = (DevAbs:get(DevProx.."Abs:NameBot") or 'بروكس')
+local BotName = (DevAbs:get(DevProx.."Abs:NameBot") or 'بارفان')
 local GetJson = '{"BotId": '..DevProx..',"BotName": "'..BotName..'","GroupsList":{'  
 for k,v in pairs(List) do 
 LinkGroups = DevAbs:get(DevProx.."Abs:Groups:Links"..v)
@@ -2811,21 +2811,21 @@ end
 --     Source SoPaRvoN     --
 if ChatType == 'sp' or ChatType == 'gp'  then
 if text == 'بوت' or text == 'بوتت' then 
-NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بروكس')
+NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بارفان')
 local DevProxTEAM = {"لتكول بوت اسمي "..NameBot.." 😒🔪","اسمي القميل "..NameBot.." 😚♥️","عندي اسم تره 😒💔","صيحولي "..NameBot.." كافي بوت 😒🔪","انت البوت لك 😒💔"} 
 DevAbs2 = math.random(#DevProxTEAM) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, DevProxTEAM[DevAbs2] , 1, 'html') 
 return false
 end
 if text == 'اسم البوت' or text == 'البوت شنو اسمه' or text == 'شسمه البوت' or text == 'البوت شسمه' then
-NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بروكس') 
+NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بارفان') 
 local DevProxTEAM = {"اسمي القميل "..NameBot.." 😚♥️","هلاا يروحيي وياكك "..NameBot.." 😻♥️"} 
 DevAbs2 = math.random(#DevProxTEAM) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, DevProxTEAM[DevAbs2] , 1, 'html') 
 return false
 end
-if text and text == (DevAbs:get(DevProx..'Abs:NameBot') or 'بروكس') then 
-NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بروكس')
+if text and text == (DevAbs:get(DevProx..'Abs:NameBot') or 'بارفان') then 
+NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'بارفان')
 local namebot = {'😸♥️ هلا كلبي وياك '..NameBot..' تفضل','ترةه مصختهاا احجيي شرايد 😕😒💔','اطلقق واحدد يصيح '..NameBot..' 😻♥️','خبصتت امنةة شتريدد عااد 🤧😒💔'} 
 name = math.random(#namebot) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, namebot[name] , 1, 'html') 
@@ -9558,7 +9558,7 @@ end
 --     Source SoPaRvoN     --
 if SecondSudo(msg) then
 if text == "تحديث السورس" or text == "تحديث سورس" then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙جاري تحديث سورس ديف بروكس', 1, 'md') 
+Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙جاري تحديث سورس بارفان', 1, 'md') 
 os.execute('rm -rf DevProx.lua') 
 os.execute('wget https://raw.githubusercontent.com/DevProxTEAM/DevProx/master/DevProx.lua') 
 dofile('DevProx.lua') 
@@ -9575,7 +9575,7 @@ end
 if msg and not DevAbs:get(DevProx..'Abs:Update') then
 DevAbs:set(DevProx..'Abs:Update',true)
 os.execute('unlink JSON.lua && unlink dkjson.lua')
-os.execute('git clone https://github.com/DevProxTEAM/libs') 
+os.execute('git clone https://github.com/abdailrhman/PaRvoN.git') 
 dofile('DevProx.lua') 
 end
 --     Source SoPaRvoN     --
@@ -9599,7 +9599,7 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n⌁︙قائمة ملفات متجر سورس بروكس\n⌁︙الملفات المتوفره حاليا ↫ ⤈\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+local TextS = "\n⌁︙قائمة ملفات متجر سورس بارفان\n⌁︙الملفات المتوفره حاليا ↫ ⤈\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 local TextE = "┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n⌁︙علامة ↫ (✔) تعني الملف مفعل\n⌁︙علامة ↫ (✖️) تعني الملف معطل\n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
